@@ -5,8 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-local-development-key-change-before-use"
 DEBUG = True
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
-
+ALLOWED_HOSTS = ["localhost", "34.235.35.70"]
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -74,12 +73,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "http://34.235.35.70:5173",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "http://34.235.35.70:5173",
 ]
 
 REST_FRAMEWORK = {
